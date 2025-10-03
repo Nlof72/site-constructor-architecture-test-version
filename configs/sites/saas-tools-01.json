@@ -1,0 +1,85 @@
+{
+  "siteId": "saas-tools-01",
+  "siteName": "WebTools Pro",
+  "domain": "webtools.example.com",
+  "businessType": "saas",
+  "theme": {
+    "colors": {
+      "primary": "#6366F1",
+      "primaryForeground": "#FFFFFF",
+      "secondary": "#F3F4F6",
+      "secondaryForeground": "#111827",
+      "accent": "#8B5CF6",
+      "background": "#FFFFFF",
+      "foreground": "#111827"
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": "Inter, sans-serif",
+        "heading": "Plus Jakarta Sans, sans-serif"
+      }
+    },
+    "borderRadius": {
+      "sm": "0.375rem",
+      "md": "0.5rem",
+      "lg": "0.75rem"
+    }
+  },
+  "seo": {
+    "title": "WebTools Pro - Professional Web Development Tools",
+    "description": "All-in-one platform for web developers. Code editor, hosting, deployment, and analytics in one place.",
+    "keywords": ["saas", "web tools", "development", "hosting", "deployment"],
+    "ogImage": "/images/og-saas.jpg",
+    "favicon": "/favicon-saas.ico"
+  },
+  "features": {
+    "enableBlog": true,
+    "enableChat": true,
+    "enableReviews": true,
+    "enableNewsletter": true,
+    "enableAnalytics": true,
+    "enableABTesting": true
+  },
+  "navigation": [
+    {
+      "label": "Product",
+      "href": "/product"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing"
+    },
+    {
+      "label": "Resources",
+      "href": "/resources"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise"
+    }
+  ],
+  "paymentMethods": ["card", "paypal", "bank-transfer"],
+  "localization": {
+    "defaultLocale": "en",
+    "supportedLocales": ["en", "ru", "de", "fr", "es", "pt"],
+    "currency": "USD"
+  },
+  "api": {
+    "baseUrl": "https://api.webtools.example.com",
+    "endpoints": {
+      "auth": "/v1/auth",
+      "projects": "/v1/projects",
+      "deployments": "/v1/deployments",
+      "analytics": "/v1/analytics",
+      "billing": "/v1/billing"
+    }
+  },
+  "analytics": {
+    "googleAnalytics": "G-ZZZZZZZZZZ"
+  },
+  "social": {
+    "twitter": "https://twitter.com/webtools",
+    "discord": "https://discord.gg/webtools",
+    "instagram": "https://instagram.com/webtools"
+  }
+}

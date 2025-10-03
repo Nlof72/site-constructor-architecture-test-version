@@ -1,0 +1,89 @@
+{
+  "siteId": "cs2-skins-01",
+  "siteName": "CS2 Skins Market",
+  "domain": "cs2skins.example.com",
+  "businessType": "gaming",
+  "theme": {
+    "colors": {
+      "primary": "#FF4655",
+      "primaryForeground": "#FFFFFF",
+      "secondary": "#2A2D35",
+      "secondaryForeground": "#FFFFFF",
+      "accent": "#FFA726",
+      "background": "#1A1D24",
+      "foreground": "#FFFFFF"
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": "Roboto, sans-serif",
+        "heading": "Rajdhani, sans-serif"
+      }
+    },
+    "borderRadius": {
+      "sm": "0.125rem",
+      "md": "0.25rem",
+      "lg": "0.5rem"
+    }
+  },
+  "seo": {
+    "title": "CS2 Skins Market - Buy & Sell CS2 Skins",
+    "description": "Best marketplace for Counter-Strike 2 skins. Buy, sell, and trade CS2 skins instantly with secure transactions.",
+    "keywords": ["cs2", "skins", "counter-strike", "marketplace", "trading"],
+    "ogImage": "/images/og-cs2.jpg",
+    "favicon": "/favicon-cs2.ico"
+  },
+  "features": {
+    "enableBlog": false,
+    "enableChat": true,
+    "enableReviews": true,
+    "enableNewsletter": true,
+    "enableAnalytics": true,
+    "enableABTesting": true
+  },
+  "navigation": [
+    {
+      "label": "Marketplace",
+      "href": "/marketplace"
+    },
+    {
+      "label": "Inventory",
+      "href": "/inventory"
+    },
+    {
+      "label": "Sell",
+      "href": "/sell"
+    },
+    {
+      "label": "Leaderboard",
+      "href": "/leaderboard"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    }
+  ],
+  "paymentMethods": ["card", "crypto", "bank-transfer"],
+  "localization": {
+    "defaultLocale": "en",
+    "supportedLocales": ["en", "ru", "zh"],
+    "currency": "USD"
+  },
+  "api": {
+    "baseUrl": "https://api.cs2skins.example.com",
+    "endpoints": {
+      "auth": "/v1/auth",
+      "items": "/v1/items",
+      "trades": "/v1/trades",
+      "inventory": "/v1/inventory",
+      "market": "/v1/market"
+    }
+  },
+  "analytics": {
+    "googleAnalytics": "G-YYYYYYYYYY"
+  },
+  "social": {
+    "telegram": "https://t.me/cs2skins",
+    "discord": "https://discord.gg/cs2skins",
+    "twitter": "https://twitter.com/cs2skins"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd ../.. && pnpm install && pnpm build --filter=@platform/app",
+  "outputDirectory": ".next",
+  "installCommand": "cd ../.. && pnpm install",
+  "framework": "nextjs",
+  "rootDirectory": "apps/platform",
+  "env": {
+    "SITE_ID": "vpn-service-01"
+  }
+}

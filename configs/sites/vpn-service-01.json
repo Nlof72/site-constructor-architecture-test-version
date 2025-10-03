@@ -1,0 +1,85 @@
+{
+  "siteId": "vpn-service-01",
+  "siteName": "SecureVPN Pro",
+  "domain": "securevpn.example.com",
+  "businessType": "vpn",
+  "theme": {
+    "colors": {
+      "primary": "#0066FF",
+      "primaryForeground": "#FFFFFF",
+      "secondary": "#F0F4FF",
+      "secondaryForeground": "#1A1A1A",
+      "accent": "#00C2FF",
+      "background": "#FFFFFF",
+      "foreground": "#1A1A1A"
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": "Inter, sans-serif",
+        "heading": "Manrope, sans-serif"
+      }
+    },
+    "borderRadius": {
+      "sm": "0.25rem",
+      "md": "0.5rem",
+      "lg": "1rem"
+    }
+  },
+  "seo": {
+    "title": "SecureVPN Pro - Fast & Secure VPN Service",
+    "description": "Premium VPN service with military-grade encryption. Protect your privacy and access content worldwide.",
+    "keywords": ["vpn", "secure", "privacy", "encryption", "streaming"],
+    "ogImage": "/images/og-vpn.jpg",
+    "favicon": "/favicon-vpn.ico"
+  },
+  "features": {
+    "enableBlog": true,
+    "enableChat": true,
+    "enableReviews": true,
+    "enableNewsletter": true,
+    "enableAnalytics": true,
+    "enableABTesting": false
+  },
+  "navigation": [
+    {
+      "label": "Pricing",
+      "href": "/pricing"
+    },
+    {
+      "label": "Features",
+      "href": "/features"
+    },
+    {
+      "label": "Apps",
+      "href": "/apps"
+    },
+    {
+      "label": "Support",
+      "href": "/support"
+    }
+  ],
+  "paymentMethods": ["card", "paypal", "crypto", "google-pay", "apple-pay"],
+  "localization": {
+    "defaultLocale": "en",
+    "supportedLocales": ["en", "ru", "de", "fr", "es"],
+    "currency": "USD"
+  },
+  "api": {
+    "baseUrl": "https://api.securevpn.example.com",
+    "endpoints": {
+      "auth": "/v1/auth",
+      "subscriptions": "/v1/subscriptions",
+      "servers": "/v1/servers",
+      "user": "/v1/user"
+    }
+  },
+  "analytics": {
+    "googleAnalytics": "G-XXXXXXXXXX",
+    "yandexMetrika": "12345678"
+  },
+  "social": {
+    "telegram": "https://t.me/securevpn",
+    "twitter": "https://twitter.com/securevpn",
+    "discord": "https://discord.gg/securevpn"
+  }
+}
